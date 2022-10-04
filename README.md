@@ -2,6 +2,18 @@
 
 Repo for program tasks
 
+## Quizs
+
+### Quiz 1
+- Primitive Data Types
+- Result 100%
+### Quiz 1 comments
+- Some previous knoledge is needed
+- Original document do not explains diferences between storage/memory/calldata
+- global variables should be listed
+
+
+
 ## Tasks 
 
 ### Task 1: Primitive Data Types
