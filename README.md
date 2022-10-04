@@ -47,3 +47,20 @@ State variables:
 - not clear if constructor part is a require or just setting owner value.
 - not clear what to do with register function. Maybe writing register(address studentID, args ...) is better.
 - "Make use of a custom error if wish to" should be in a optional requirement part.
+
+### task 2: Mappings
+
+#### Description
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+Create a smart contract that saves user balance. The contract should have the functions:
+
+- [] deposit (uint256 amount) this function accepts one argument and it saves the amount a user is depositing into a mapping,
+- [] checkBalance() this function searches for the user balance inside the balance mapping and returns the balance of whoever is calling the contract.
+
+#### Answer
+[task 2 contract](./task2-mappings/task2Contract.sol)
+
+#### Comments
+
