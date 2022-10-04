@@ -1,6 +1,6 @@
 # Solidity Developer Program October [Eth Miami]
 
-Repo for program tasks
+Repo for program tasks and quizs
 
 ## Quizs
 
@@ -40,7 +40,7 @@ State variables:
 
 #### Answer
 
-[github file](/README.md)
+[task 1 contract](/task1-primitive-data-types/Task1Contract.sol)
 
 #### Comments
 
