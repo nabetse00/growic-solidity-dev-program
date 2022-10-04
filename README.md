@@ -8,9 +8,19 @@ Repo for program tasks and quizs
 - Primitive Data Types
 - Result 100%
 ### Quiz 1 comments
-- Some previous knoledge is needed
+- Some previous knowledge is needed
 - Original document do not explains diferences between storage/memory/calldata
 - global variables should be listed
+
+### Quiz 2
+- Mapping
+- Result 100%
+### Quiz 1 comments
+- Some previous knowledge is needed
+- Original document doesn't explain mapping limitations
+- Question 5 (The key type for a mapping needs to be a built in value type (string or bytes))
+   can be miss leading (other types are allowed beside srtring or bytes ... )
+
 
 
 
@@ -56,11 +66,12 @@ Perform the task and share the link to your github in the field below.
 #### Instructions
 Create a smart contract that saves user balance. The contract should have the functions:
 
-- [] deposit (uint256 amount) this function accepts one argument and it saves the amount a user is depositing into a mapping,
-- [] checkBalance() this function searches for the user balance inside the balance mapping and returns the balance of whoever is calling the contract.
+- [x] deposit (uint256 amount) this function accepts one argument and it saves the amount a user is depositing into a mapping,
+- [x] checkBalance() this function searches for the user balance inside the balance mapping and returns the balance of whoever is calling the contract.
 
 #### Answer
 [task 2 contract](./task2-mappings/task2Contract.sol)
 
 #### Comments
+- Maybe be more explicit. Explain that the address for function must be sender address.
 
