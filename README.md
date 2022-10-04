@@ -15,7 +15,7 @@ Repo for program tasks and quizs
 ### Quiz 2
 - Mapping
 - Result 100%
-### Quiz 1 comments
+### Quiz 2 comments
 - Some previous knowledge is needed
 - Original document doesn't explain mapping limitations
 - Question 5 (The key type for a mapping needs to be a built in value type (string or bytes))
