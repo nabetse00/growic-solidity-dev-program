@@ -21,6 +21,15 @@ Repo for program tasks and quizs
 - Question 5 (The key type for a mapping needs to be a built in value type (string or bytes))
    can be miss leading (other types are allowed beside srtring or bytes ... )
 
+### Quiz 3
+-  Structs
+- Result 100%
+
+### Quiz 3 comments
+- easy
+- Some previous knowledge is needed
+- Diferences between record/data not in original doc
+
 
 
 
@@ -75,3 +84,19 @@ Create a smart contract that saves user balance. The contract should have the fu
 #### Comments
 - Maybe be more explicit. Explain that the address for function must be sender address.
 
+### task 3:  Structs
+
+#### Description
+You must complete the task from the 'Mapping' topic before you begin this one.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+This task extends the functionality of the previous contract by allowing users to save their additional info into the smart contract as a KYC measure.
+
+The contract should now contain the following:
+
+- [x] setUserDetails(string calldata name, uint256 age) this function accepts 2 arguments that represent the details of the user calling the smart contract and it saves them into a defined struct,
+- [x] getUserDetail() this function retrieves and returns the details saved for the user calling the contract.
+
+
+[task 3 contract](./task3-structs/task3Contract.sol)
