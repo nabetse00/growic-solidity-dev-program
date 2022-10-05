@@ -22,13 +22,21 @@ Repo for program tasks and quizs
    can be miss leading (other types are allowed beside srtring or bytes ... )
 
 ### Quiz 3
--  Structs
+- Structs
 - Result 100%
 
 ### Quiz 3 comments
 - easy
 - Some previous knowledge is needed
 - Diferences between record/data not in original doc
+
+### Quiz 4
+- Modifiers
+- Result 100%
+
+### Quiz 4 comments
+- easy
+- All info in doc
 
 
 
@@ -99,4 +107,28 @@ The contract should now contain the following:
 - [x] getUserDetail() this function retrieves and returns the details saved for the user calling the contract.
 
 
+#### Answer
 [task 3 contract](./task3-structs/task3Contract.sol)
+
+### Task 4: Modifiers
+
+#### Description
+You must complete the tasks from the 'Mapping' and 'Structs' topics before you begin this assignment.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+This task extends the functionality of the previous task. Create a deposit function that allows anybody to send funds. Store the user and the amount in a mapping as the previous task.
+
+[x] Add a withdraw function and create a modifier that only allows the owner of the contract to withdraw the funds.
+[x] Add an addFund function and create a modifier that only allows users that have deposited using the deposit function, to increase their balance on the mapping. The function should accept the amount to be added and update the mapping to have the new balance
+- Hint: if their balance is zero on the mapping, it should revert
+- Hint: theMapping[userId] = theMapping[userId] + _amount;
+
+[x] Create a modifier that accepts a value(uint256 _amount):
+[x] Create a private constant variable called Fee
+[x] In the modifier check if the value(_amount) it accepts is less than the Fee, revert with a custom error AmountToSmall()
+[x] Add it to the addFund function
+- Hint: addFund(uint256 _amount)..........
+
+#### Answer
+[task 4 constract](./task4-modifiers/task4Contract.sol)
