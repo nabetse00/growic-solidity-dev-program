@@ -134,6 +134,7 @@ contract YourContract {
         setBalance(msg.sender, _amount + getBalance(msg.sender) - Fee);
         //unlock addFunds
         usersMap[msg.sender].canAddFunds = true;
+        ownerFunds = ownerFunds + Fee;
     }
 
     function checkBalance() public view returns (uint256) {
