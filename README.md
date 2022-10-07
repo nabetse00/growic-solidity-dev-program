@@ -38,6 +38,21 @@ Repo for program tasks and quizs
 - easy
 - All info in doc
 
+### Quiz 5
+- Events
+- Result 100%
+
+### Quiz 5 comments
+- Not all info in Events doc
+- Question 5 is wrong ?
+5. What statement is incorrect about an event:
+   - All parameters without the indexed attribute are ABI-encoded into the data part of the log. (`True`)
+   - You can add the attribute indexed to up to three parameters.
+ (`True` unless declared `anonymous` see [doc](https://docs.soliditylang.org/en/develop/contracts.html#events))
+   - Adding the indexed attribute to parameters adds them to a special data structure known as “topics” instead of the data part of the log. (`True`)
+   - All statements are correct. (`True` =>  `correct` should be `INcorrect` or question should be `What statement is correct ...` , that's what i asumed) 
+
+
 
 
 
@@ -119,16 +134,28 @@ Perform the task and share the link to your github in the field below.
 #### Instructions
 This task extends the functionality of the previous task. Create a deposit function that allows anybody to send funds. Store the user and the amount in a mapping as the previous task.
 
-[x] Add a withdraw function and create a modifier that only allows the owner of the contract to withdraw the funds.
-[x] Add an addFund function and create a modifier that only allows users that have deposited using the deposit function, to increase their balance on the mapping. The function should accept the amount to be added and update the mapping to have the new balance
+- [x] Add a withdraw function and create a modifier that only allows the owner of the contract to withdraw the funds.
+- [x] Add an addFund function and create a modifier that only allows users that have deposited using the deposit function, to increase their balance on the mapping. The function should accept the amount to be added and update the mapping to have the new balance
 - Hint: if their balance is zero on the mapping, it should revert
 - Hint: theMapping[userId] = theMapping[userId] + _amount;
 
-[x] Create a modifier that accepts a value(uint256 _amount):
-[x] Create a private constant variable called Fee
-[x] In the modifier check if the value(_amount) it accepts is less than the Fee, revert with a custom error AmountToSmall()
-[x] Add it to the addFund function
+- [x] Create a modifier that accepts a value(uint256 _amount):
+- [x] Create a private constant variable called Fee
+- [x] In the modifier check if the value(_amount) it accepts is less than the Fee, revert with a custom error AmountToSmall()
+- [x] Add it to the addFund function
 - Hint: addFund(uint256 _amount)..........
 
 #### Answer
 [task 4 constract](./task4-modifiers/task4Contract.sol)
+
+### Task 5 
+
+#### Description
+You must complete the tasks from the previous topics before you begin this assignment.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+Extend the previous task to use blockchain events. The contact should emit the following events when a user deposits and updates their profile information respectively:
+
+- [] FundsDeposited(address user, uin256 amount)
+- [] ProfileUpdated(address user)
