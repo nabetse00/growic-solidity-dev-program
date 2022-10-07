@@ -161,4 +161,22 @@ Extend the previous task to use blockchain events. The contact should emit the f
 - [x] ProfileUpdated(address user)
 
 #### Answer
-[task 5 constract](./task5-events/task5Contract.sol)
+[task 5 contract](./task5-events/task5Contract.sol)
+
+### Task 6 Inheritance
+
+#### Description
+You must complete the tasks from the previous topics before you begin this assignment.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+A simple use case for inheritance is to launch an ERC20 token using the OpenZepellin ERC20 implementation. 
+Try to launch your custom ERC20 on any test network and then send me the address to the contract!
+
+[x] import OpenZepellin ERC20
+[x] deploy to test network
+
+#### Answer
+[task 6 contract](./task6-Inheritance/task6Contract.sol)
+[etherscan url](https://goerli.etherscan.io/tx/0xed78f17ccd66e02e9d2ebf7a0e8741bedfeccdd9e2926f5ae1a41799e8d6bc2a)
+
