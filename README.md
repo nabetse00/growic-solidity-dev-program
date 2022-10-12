@@ -65,8 +65,16 @@ Repo for program tasks and quizs
 - Result 100%
 
 ### Quiz 7 comments
-- easy
+- Easy
 - All info in doc
+
+### Quiz 8
+- Fallback
+- Result 100%
+
+### Quiz 8 comments
+- All info in doc
+
 
 
 ## Tasks 
@@ -206,3 +214,16 @@ In this task, we will re-write the deposit function from the ‘Mappings’ topi
 
 #### Answer
 [task 7 contract](./task7-payable/task7Contract.sol)
+
+### Task 8 Fallback
+
+#### Description
+You must complete the tasks from the previous topics before you begin this assignment.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+To ensure that our smart contract can receive ETH sent to it via transfers, we will create a fallback or receive payable function. The task is to create the fallback function and make sure when a user transfers ETH to the smart contract, the transaction does not get reverted
+
+#### Answer
+
+[task 8 contract](./task8-fallback/task8Contract.sol)
