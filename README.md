@@ -35,7 +35,7 @@ Repo for program tasks and quizs
 - Result 100%
 
 ### Quiz 4 comments
-- easy
+- Easy
 - All info in doc
 
 ### Quiz 5
@@ -52,8 +52,21 @@ Repo for program tasks and quizs
    - Adding the indexed attribute to parameters adds them to a special data structure known as “topics” instead of the data part of the log. (`True`)
    - All statements are correct. (`True` =>  `correct` should be `INcorrect` or question should be `What statement is correct ...` , that's what i asumed) 
 
+### Quiz 6
+- Inheritance
+- Result 100%
 
+### Quiz 6 comments
+- Easy
+- All info in doc
 
+### Quiz 7
+- Payable
+- Result 100%
+
+### Quiz 7 comments
+- easy
+- All info in doc
 
 
 ## Tasks 
@@ -180,3 +193,16 @@ Try to launch your custom ERC20 on any test network and then send me the address
 [task 6 contract](./task6-Inheritance/task6Contract.sol)
 [etherscan url](https://goerli.etherscan.io/tx/0xed78f17ccd66e02e9d2ebf7a0e8741bedfeccdd9e2926f5ae1a41799e8d6bc2a)
 
+### Task 7 Payable
+
+#### Description
+You must complete the tasks from the previous topics before you begin this assignment.
+Perform the task and share the link to your github in the field below.
+
+#### Instructions
+In this task, we will re-write the deposit function from the ‘Mappings’ topic. We will allow users to send real ETH deposits to our smart contract by adding a payable function. Function deposit will be re-written to accept no arguments but receive real ETH deposits and still save and update user balance.
+
+- [x] deposit() accepts ETH through the payable modifier and updates user balance accordingly
+
+#### Answer
+[task 7 contract](./task7-payable/task7Contract.sol)
