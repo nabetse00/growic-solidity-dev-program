@@ -44,7 +44,7 @@ Repo for program tasks and quizs
 
 ### Quiz 5 comments
 - Not all info in Events doc
-- ~~ Question 5 is wrong ? ~~ corrected by now
+- ~~Question 5 is wrong ?~~ corrected by now
 
 ### Quiz 6
 - Inheritance
