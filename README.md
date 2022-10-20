@@ -44,13 +44,7 @@ Repo for program tasks and quizs
 
 ### Quiz 5 comments
 - Not all info in Events doc
-- Question 5 is wrong ?
-5. What statement is incorrect about an event:
-   - All parameters without the indexed attribute are ABI-encoded into the data part of the log. (`True`)
-   - You can add the attribute indexed to up to three parameters.
- (`True` unless declared `anonymous` see [doc](https://docs.soliditylang.org/en/develop/contracts.html#events))
-   - Adding the indexed attribute to parameters adds them to a special data structure known as “topics” instead of the data part of the log. (`True`)
-   - All statements are correct. (`True` =>  `correct` should be `INcorrect` or question should be `What statement is correct ...` , that's what i asumed) 
+- ~~ Question 5 is wrong ? ~~ corrected by now
 
 ### Quiz 6
 - Inheritance
